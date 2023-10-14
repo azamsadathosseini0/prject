@@ -1,0 +1,73 @@
+body, html, .row, .h-100, #modules, #dropzone {
+    height: 100%;
+    text-align: right;
+
+}
+
+
+.nomrgn{
+    margin-left:0px !important;
+    margin-right:0px !important;
+
+
+}
+.nopadd{
+    padding:5px !important;
+
+
+}
+#modules {
+    background: #eee;
+    z-index: 1;
+
+
+}
+.drag-field {
+    padding-top: 15px !important;
+
+}
+.drag-field a{
+    width:100%;
+
+}
+#dropzone {
+    padding: 20px;
+    background: #fff;
+    z-index: 0;
+
+}
+.active {
+    outline: 1px solid red;
+}
+.hover {
+    outline: 1px solid blue;
+}
+.drop-item .remove {
+    display: none;
+}
+.drop-item:hover .remove {
+    display: inherit;
+}
+.remove {
+    background: no-repeat;
+    border: none;
+    font-size: 11px;
+    color: red;
+}
+.drop-item {
+    cursor: move;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    border: 1px solid rgb(204, 204, 204);
+    position: relative;
+}
+.drop-item p {
+    cursor: pointer;
+    margin: 0;
+}
+.drop-item .remove {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
